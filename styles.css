@@ -1,0 +1,166 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #dcd6f7;
+}
+
+header {
+  background-color: #f4eeff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 2px 5px rgba(195, 175, 252, 0.1);
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.profile img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.profile-info h1 {
+  margin: 0;
+  color:#19191a;
+  font-size: 1.2rem;
+}
+
+.profile-info p {
+  margin: 0;
+  color: #666;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.metrics {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: #a6b1e1;
+  margin-top: 20px;
+}
+
+.metric-card {
+  background-color: #f3f2fa;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.metric-card:hover {
+  transform: translateY(-5px);
+}
+
+.metric-card h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+.post-feed {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.post {
+  width: calc(33.3333% - 20px);
+  margin-bottom: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.post:hover {
+  transform: translateY(-5px);
+}
+
+.post img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.post-info {
+  padding: 20px;
+}
+
+.post-info h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.post-info p {
+  color: #666;
+}
+
+.notifications {
+  background-color: #bdc0e7;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.notifications:hover {
+  transform: translateY(-5px);
+}
+
+.notifications h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+.notifications ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer {
+  background-color: #8bc6e9;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.settings-btn,
+.logout-btn {
+  border: none;
+  background-color: transparent;
+  color: #1d1c1c;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.settings-btn:hover,
+.logout-btn:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  transform: scale(1.05);
+}
+
+
+
+  
